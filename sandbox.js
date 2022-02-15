@@ -12,9 +12,9 @@ form.addEventListener('submit', e =>{
         db.collection('messages').add({
             name: form.name.value,
             friend:form.friendName.value,
-            message:form.msg.value
-            alert("Message Sent Successfully");
+            message:form.msg.value 
         })
+        alert("Message Sent Successfully");
     }catch(err){
         alert(err)
     }finally{
