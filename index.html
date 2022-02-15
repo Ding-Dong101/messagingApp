@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="full-style.css">
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <div class="title">Welcome</div>
+        <!-- <nav>
+            <div class="item"></div>
+        </nav> -->
+    </header>
+
+    <section>
+        <form action="index.html" method="post">
+            <div class="inputs">
+                 <input type="text" placeholder="Enter Your Name" required name="name">
+                 <input type="text" placeholder="Who is your best friend?" name="friendName">
+            </div>
+            <br>
+
+            <div class="text">
+                <textarea name="msg" placeholder="Here, Enter Your Message"></textarea>
+            </div>
+            <button type="submit">Continue</button>
+           
+        </form>
+    </section>
+    <script src="config.js"></script>
+    <script src="sandbox.js"></script>
+
+</body>
+</html>
