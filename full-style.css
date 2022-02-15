@@ -9,6 +9,7 @@
 }
 body{
     background-color: rgb(167, 168, 168);
+    width:100%;
 }
 input{
     outline: none;
@@ -25,8 +26,8 @@ input:focus{
     border-radius: 10px;
 }
 form{
-/*     width: 69%; */
-/*     border-radius: 72px;
+    width: 100%;
+/*  border-radius: 72px;*/
     background-color: rgb(160, 176, 190); */
     padding: 60px;
     text-align: center;
