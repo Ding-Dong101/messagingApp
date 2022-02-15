@@ -13,6 +13,7 @@ form.addEventListener('submit', e =>{
             name: form.name.value,
             friend:form.friendName.value,
             message:form.msg.value
+            alert("Message Sent Successfully");
         })
     }catch(err){
         alert(err)
