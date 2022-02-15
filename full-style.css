@@ -25,9 +25,9 @@ input:focus{
     border-radius: 10px;
 }
 form{
-    width: 69%;
-    border-radius: 72px;
-    background-color: rgb(160, 176, 190);
+/*     width: 69%; */
+/*     border-radius: 72px;
+    background-color: rgb(160, 176, 190); */
     padding: 60px;
     text-align: center;
 }
