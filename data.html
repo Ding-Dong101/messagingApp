@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data page</title>
+  </head>
+  <body>
+    <h1>Submitted Messages</h1>
+    <div id="messages"></div>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f9f9f9;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      /* #messages {
+        margin-top: 20px;
+      }
+
+      .message {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+
+      .message h3 {
+        margin: 0 0 10px 0;
+        color: #555;
+      }
+
+      .message p {
+        margin: 0;
+        color: #777;
+      } */
+      .content {
+        width: 600px;
+        /* border: 2px solid #ccc; */
+        margin-bottom: 22px;
+        border-radius: 22px;
+        /* padding: 12px; */
+
+        h3 {
+          width: 100%;
+          background-color: #ff8585;
+          border-top-right-radius: 12px;
+          padding: 12px;
+        }
+        p {
+          width: 100%;
+          background-color: #bef1fa;
+          padding: 12px;
+        }
+      }
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/12.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore-compat.js"></script>
+    <script src="config.js"></script>
+    <script src="display.js"></script>
+  </body>
+</html>

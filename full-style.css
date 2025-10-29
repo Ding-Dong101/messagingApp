@@ -1,3 +1,10 @@
+/* 
+Purpose	Color	RGB	Hex
+Background	#C8D6E2	(200, 214, 226)	Light bluish-gray
+Accent	#3A6EA5	(58, 110, 165)	Deep steel blue
+Text	#2B2B2B	(43, 43, 43)	Dark neutral gray
+Button / Highlight	#4A90E2	(74, 144, 226)	Soft modern blue
+*/
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 /* Global Reset */
