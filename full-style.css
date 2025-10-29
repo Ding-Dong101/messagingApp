@@ -1,80 +1,99 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.title{
-    text-align: center;
-    font-size: 32pt;
+
+/* Base Styles */
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lexend", sans-serif;
+  /* background-color: #ececec; */
+  background-color: #3a6ea5;
+  color: #2b2b2b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
 }
-body{
-    background-color: rgb(167, 168, 168);
-    width:100%;
+
+.title {
+  text-align: center;
+  font-size: 32pt;
 }
-input{
-    outline: none;
-    padding: 10px;
-    border: none;
-    background-color: transparent;
-    border-left: 2px rgb(48, 131, 187) solid;
-    width:300px;
+
+/* Layout */
+/* main {
+} */
+
+/* Form */
+form {
+  /* max-width: 600px; */
+  padding: 12px;
+  text-align: center;
+  background-color: #c8d6e2;
+  border-radius: 12px; /* optional for smoother look */
 }
-input:focus{
-    border-left: 7px rgb(48, 131, 187) solid;
-    transition: 0.8s;
-    outline: 1px dotted #333;
-    border-radius: 10px;
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background: transparent;
+  /* border-left: 2px solid rgb(48, 131, 187); */
+  /* transition: border-left 0.8s, border-radius 0.8s; */
 }
-form{
-    width: 100%;
-/*  border-radius: 72px;*/
-    background-color: rgb(160, 176, 190); */
-    padding: 60px;
-    text-align: center;
+
+input:focus {
+  border-left: 2px solid rgb(48, 131, 187);
+  border-radius: 10px;
+  /* outline: 1px solid #333; */
 }
-form input{
-    display: block;
-    margin-top: 20px; 
-    font-size: 18pt;
-    width: 100%;
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18pt;
+  margin-bottom: 22px;
 }
-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/* Textarea */
+textarea {
+  width: 100%;
+  resize: none;
+  outline: none;
+  padding: 10px;
+  font-size: 12pt;
+  font-style: italic;
+  white-space: pre-wrap;
+  border: 1px solid #333;
+  border-top-right-radius: 30px;
+  background-color: transparent;
+
+  margin-bottom: 22px;
 }
-button{
-    
-    /* width: 100%; */
-    font-size: 20pt;
-    border: none;
-    background-color: rgb(228, 243, 238);
-    padding: 15px;
+
+.text textarea::placeholder {
+  font-weight: 600;
+  color: #333;
 }
-button:hover{
-    border-radius: 30px;
-    background-color: #333;
-    color: beige;
-    transition: 0.5s;
-}
-.text textarea::placeholder{
-    font-weight: 900;
-    color: #333;
-}
-textarea{
-    outline: none;
-    width: 100%;
-    resize: none;
-    font-style: italic;
-    font-size: 12pt;
-    white-space:pre-wrap;
-    margin-top:10px ;
-    margin-bottom: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-textarea:focus{
-    outline: none;
-    padding: 10px;
-    border: none;
-    border-top-right-radius: 30px;
+
+/* Button */
+button {
+  font-size: 18pt;
+  padding: 12px;
+  border: none;
+  background-color: #4a90e2;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 12px;
+  color: #333;
 }
